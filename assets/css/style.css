@@ -1,0 +1,113 @@
+/* Estilo Index */
+
+.center {
+  text-align: left;
+  color: white;
+}
+
+.h1 {
+  color: white;
+  font-size: 70px;
+  margin-left: 200px;
+  margin-top: -20px;
+}
+.h1c {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Fantasy";
+}
+.corC{
+
+  color: white;
+  margin-left:50px;
+}
+.centerfooter {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 60px;
+  margin-top: -20px;
+}
+
+
+
+.ml-right{
+
+  margin-right:50px;
+
+}
+.ml-left{
+
+  margin-left:50px;
+
+}
+.containerC {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+  margin-top: -20px;
+  padding-inline-start: 50px;
+  
+}
+
+div p {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.imagem {
+  max-width: 900px;
+  max-height: 700px;
+  width: auto;
+  height: auto;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.tm-social {
+  width: 50px;
+  height: 50px;
+  padding: 25px;
+}
+
+.texto1 {
+  margin-top: 180px;
+  font-family: "Fantasy";
+  font-size: 65px;
+  color: darkpink;
+}
+
+#menu li {
+  display: inline;
+  padding: 15px;
+  font-family: "arial";
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-size: 3em;
+  color: #f310af;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #f310af;
+  font-size: 20px;
+}
+
+#menu li a:hover {
+  color: blue;
+}
+
+.fundo {
+  background-color: black;
+}
+
+/* Estilo Contato */
