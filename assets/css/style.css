@@ -10,17 +10,37 @@
   font-size: 70px;
   margin-left: 200px;
   margin-top: -20px;
+  font-family: "Fantasy";
 }
 .h1c {
   color: white;
   font-size: 60px;
   text-align: center;
   font-family: "Fantasy";
+  margin-top: 0px;
+  margin-left: 100px;
 }
-.corC{
-
+.Local {
   color: white;
-  margin-left:50px;
+  font-size: 35px;
+  text-align: left;
+  font-family: "Fantasy";
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.corC {
+  color: white;
+  margin-left: 150px;
+  padding: 0px 0px 0px 0px;
+  font-family: "Fantasy";
+}
+
+.ml-button {
+  margin-left: 255px;
+  background-color: white;
+  font-family: "Fantasy";
+  color: black;
+  border: 2px solid #4ca; /* Green */
 }
 .centerfooter {
   text-align: center;
@@ -31,32 +51,23 @@
   display: flex;
   flex-flow: row;
   justify-content: center;
-  margin-left: 15px;
-  margin-right: 60px;
-  margin-top: -20px;
+  margin-top: -25px;
 }
 
-
-
-.ml-right{
-
-  margin-right:50px;
-
+.ml-right {
+  margin-right: 0px;
+  padding: 25px 50px 75px 100px;
 }
-.ml-left{
-
-  margin-left:50px;
-
+.ml-left {
+  margin-left: 0px;
+  padding: 25px 50px 75px 100px;
 }
 .containerC {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
-  margin-right: 60px;
-  margin-top: -20px;
-  padding-inline-start: 50px;
-  
+  padding: 0px 0px 0px 0px;
 }
 
 div p {
@@ -95,7 +106,10 @@ div p {
   font-size: 3em;
   color: #f310af;
 }
-
+.Contact {
+  text-align: center;
+  color: white;
+}
 #menu li a {
   text-decoration: none;
   color: #f310af;
@@ -103,7 +117,7 @@ div p {
 }
 
 #menu li a:hover {
-  color: blue;
+  color: #4ca;
 }
 
 .fundo {
@@ -111,3 +125,4 @@ div p {
 }
 
 /* Estilo Contato */
+ 
