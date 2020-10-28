@@ -18,27 +18,25 @@
 
       <h1 class="h1c">Entre em contato conosco</h1>
       <h3 class= "Contact">Contact / Location</h3>
+      <img class = "tm-imgemail" src="assets/images/mail.png" alt="email"/>
       <div class="containerC">
-        <form action="">
-          <label class="corC" for="Nome"> Nome: </label>
-          <input type="text" id="Nome" />
-
-          <br />
-          <br />
-
-          <label class="corC" for="E-mail"> E-mail: </label>
-          <input type="email" id="Email" />
-
-          <br />
+        <form>
+          <label class="corC" for="nome"> Nome: </label>  
+          <input type="text" id="nome" onkeyup="validaNome()"/>
+          <div id= "txtNome"></div>
           <br />
 
-          <label class="corC" for="Assunto"> Assunto: </label>
-          <textarea name="Assunto" id="Assunto" cols="21" rows="2"></textarea>
-
+          <label class="corC" for="email"> E-mail: </label>
+          <input type="email" id="email" onkeyup ="validaEmail()"/>
+          <div id= "txtEmail"></div>
           <br />
+
+          <label class="corC" for="assunto"> Assunto: </label>
+          <textarea name="assunto" id="assunto" cols="21" rows="2" onkeyup="validaAssunto()" ></textarea>
+          <div id= "txtAss"></div>
           <br />
 
-          <button class = "ml-button">Enviar</button>
+          <button class = "ml-button" onclick="enviar()">Enviar</button>
         </form>
         <div class="ml-right">
           <iframe
@@ -51,6 +49,9 @@
             aria-hidden="false"
             tabindex="0"
             class="ml-right"
+            id ="mapa"
+            onmousemove="mapaZoom()"
+            onmouseout="mapaNormal()"
           ></iframe>
         </div>
       </div>
@@ -83,5 +84,9 @@
       <footer class="centerfooter">
         Todos os direitos reservados: Kauan Wade &copy
       </footer>
+
+      <script src= "assets/js/script.js"></script>
+
     </body>
+    
   </html>
